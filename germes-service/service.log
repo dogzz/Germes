@@ -1,0 +1,200 @@
+21:43:11.861 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+21:43:11.863 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
+21:47:14.195 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+21:47:14.197 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
+22:38:02.460 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+22:38:02.463 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
+20:17:27.676 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+20:17:27.681 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
+22:35:28.973 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=0] DTO object
+22:36:15.806 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+22:36:16.071 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=0] DTO object
+22:39:51.807 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+22:39:52.074 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=0] DTO object
+22:40:04.376 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+22:40:04.654 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=0] DTO object
+22:41:36.261 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+22:41:36.529 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+22:41:36.682 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+16:49:23.333 ERROR - test
+java.lang.Exception: test
+	at com.dogzz.germes.app.rest.exception.GlobalExceptionHandlerTest.testToResponseReturnServerError(GlobalExceptionHandlerTest.java:28) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137) [junit-4.12.jar:4.12]
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:234) [junit-rt.jar:?]
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:74) [junit-rt.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144) [idea_rt.jar:?]
+16:59:54.852 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+16:59:55.147 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+16:59:55.313 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+17:01:26.748 ERROR - test
+java.lang.Exception: test
+	at com.dogzz.germes.app.rest.exception.GlobalExceptionHandlerTest.testToResponseReturnServerError(GlobalExceptionHandlerTest.java:28) [test-classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53) [surefire-junit4-2.10.jar:2.10]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123) [surefire-junit4-2.10.jar:2.10]
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104) [surefire-junit4-2.10.jar:2.10]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164) [surefire-api-2.10.jar:2.10]
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110) [surefire-booter-2.10.jar:2.10]
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175) [surefire-booter-2.10.jar:2.10]
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107) [surefire-booter-2.10.jar:2.10]
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68) [surefire-booter-2.10.jar:2.10]
+17:01:28.108 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+17:01:28.421 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+17:01:28.681 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+17:01:28.733 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+17:01:28.734 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
+19:03:49.959 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+19:03:49.980 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
+19:04:01.082 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+19:04:01.356 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+19:04:01.509 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+21:27:10.391 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+21:27:10.406 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
+21:46:47.426 ERROR - test
+java.lang.Exception: test
+	at com.dogzz.germes.app.rest.exception.GlobalExceptionHandlerTest.testToResponseReturnServerError(GlobalExceptionHandlerTest.java:28) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86) [gradle-plugins-2.4.jar:2.4]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49) [gradle-plugins-2.4.jar:2.4]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64) [gradle-plugins-2.4.jar:2.4]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50) [gradle-plugins-2.4.jar:2.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-2.4.jar:2.4]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106) [gradle-plugins-2.4.jar:2.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54) [gradle-base-services-2.4.jar:2.4]
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40) [gradle-base-services-2.4.jar:2.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_45]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_45]
+21:46:49.225 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+21:46:49.827 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+21:46:50.015 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+21:46:51.037 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+21:46:51.038 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
+22:05:28.962 ERROR - test
+java.lang.Exception: test
+	at com.dogzz.germes.app.rest.exception.GlobalExceptionHandlerTest.testToResponseReturnServerError(GlobalExceptionHandlerTest.java:28) [test/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12) [junit-4.12.jar:4.12]
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17) [junit-4.12.jar:4.12]
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78) [junit-4.12.jar:4.12]
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268) [junit-4.12.jar:4.12]
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363) [junit-4.12.jar:4.12]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.runTestClass(JUnitTestClassExecuter.java:86) [gradle-plugins-2.4.jar:2.4]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecuter.execute(JUnitTestClassExecuter.java:49) [gradle-plugins-2.4.jar:2.4]
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassProcessor.processTestClass(JUnitTestClassProcessor.java:64) [gradle-plugins-2.4.jar:2.4]
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:50) [gradle-plugins-2.4.jar:2.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93) [gradle-messaging-2.4.jar:2.4]
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source) [?:?]
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:106) [gradle-plugins-2.4.jar:2.4]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_45]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_45]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_45]
+	at java.lang.reflect.Method.invoke(Method.java:497) ~[?:1.8.0_45]
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.messaging.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:360) [gradle-messaging-2.4.jar:2.4]
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54) [gradle-base-services-2.4.jar:2.4]
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40) [gradle-base-services-2.4.jar:2.4]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142) [?:1.8.0_45]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617) [?:1.8.0_45]
+	at java.lang.Thread.run(Thread.java:745) [?:1.8.0_45]
+22:05:30.192 DEBUG - SimpleDTOTransformer.transform: City[name=Kiev,district=<null>,region=<null>,stations=<null>,id=0,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+22:05:30.592 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+22:05:30.777 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=<null>,region=<null>,id=1] DTO object
+22:05:31.511 DEBUG - SimpleDTOTransformer.transform: City[name=Odessa,district=None,region=Od,stations=<null>,id=1,createdAt=<null>,modifiedAt=<null>,createdBy=<null>,modifiedBy=<null>] entity
+22:05:31.512 DEBUG - SimpleDTOTransformer.transform: CityDTO[name=Odessa,district=None,region=Od,id=1] DTO object
